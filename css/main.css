@@ -1,0 +1,206 @@
+@import url(reset.css);
+@import url(common.css);
+
+
+/* ------------ LAYOUT ------------------ */
+
+
+ body{
+    background: rgb(14, 24, 51);
+    color: white;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+/* ------------ HEADER ------------------ */
+
+
+
+header{
+    width: 100%;
+    height: 200px;
+}
+
+header .logo{
+    text-indent: -9999em;
+}
+
+header .logo img{
+    width: 250px;
+    float: left;
+}
+
+header nav{
+    background:#111;
+    height: 108px;
+}
+
+header .sub-menu{
+    float: right;
+}
+
+.sub-menu li{
+    float: left;
+    margin-right: 30px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.sub-menu li a {
+    color: #fff;
+
+}
+.sub-menu li a i{
+    margin-right: 10px;
+}
+
+
+
+/* ---------------------------------------
+
+.sticky-menu > .mainmenu > li {
+    float:left; 
+    line-height:20px;
+    margin-right:40px;
+}
+
+
+.sticky-menu > .mainmenu > li ul li{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.sticky-menu > .mainmenu > li > h3{
+    font-size: 28px;
+    margin-bottom: 33px;
+    line-height: 38px;
+} 
+
+
+.sticky-menu > .mainmenu > li > h3 i{
+    margin-right: 19px;
+
+}
+
+
+.sticky-menu p{
+    position: absolute;
+    right: 0; top: 30px; right: 30px;
+    
+}
+ */
+
+
+.sticky-menu{
+    background: #444;
+    height: 200px;
+    position: absolute;
+	/* margin-top:20px; */
+	background:linear-gradient(rgb(48, 48, 48)100px, rgb(43, 43, 43,0.2) 100px);
+	height:100px;
+	/* overflow:hidden; */
+	/* transition:0.5s; */
+    width:100%;
+    margin:0 auto;
+    
+}
+
+
+.sticky-menu > .mainmenu > li {
+    float:left;
+    line-height:50px;
+    margin-right:40px; 
+    position: relative;
+    left: 0; right: 0; top: 0;
+}
+
+/* /* .sticky-menu > ul > li ul{ width:100%; position: absolute;} */
+
+.sticky-menu > .mainmenu > li h3{
+    padding-bottom: 50px;
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------ BANNER ------------------ */
+
+
+
+
+.banner{
+    margin-top: 300px;
+}
+
+
+
+.big-title{
+    font-size: 3em;
+    padding: 40px 5px 40px;
+}
+
+.slide_wrapper{
+    width: 100%;
+}
+
+.slides{
+    display: inline-block;
+    width: 100%;
+}
+
+.slide img{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+/* 
+.sub-menu {
+    width:100%; 
+    margin:0 auto; 
+    background: #aaa;
+    float: right;    
+} */
+
+
+
+
+/* nav > ul > li ul{
+    width:100%;
+    opacity:0;
+    position: absolute;
+} */
